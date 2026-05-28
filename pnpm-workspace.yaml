@@ -1,3 +1,12 @@
+minimumReleaseAge: 0
+minimumReleaseAgeStrict: false
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+allowBuilds:
+  '@prisma/client': true
+  '@prisma/engines': true
+  msw: true
+  prisma: true
+  sharp: true
+  unrs-resolver: true
